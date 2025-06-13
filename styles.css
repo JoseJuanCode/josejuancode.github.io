@@ -1,0 +1,57 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  padding:24px;
+  font-family:"poppins", sans-serif;
+}
+form{
+  width:90vw;
+  max-width:900px;
+  background-color:#333333;
+  color:white;
+  margin:16px auto;
+  padding:24px
+}
+h1{
+  color:#3f51b5;
+  font-size:32px;
+}
+h1,p{
+  text-align:center;
+}
+p, input, option, label,textarea{
+  font-size:16px;
+}
+input{
+  padding:8px;
+}
+label{
+  display: block;
+  margin:16px;
+}
+input, select, textarea{
+  display:block;
+  width:100%;
+  margin-top:8px;
+  padding:8px;
+}
+input[type="submit"]{
+  background-color:#4caf50;
+  border:1px solid #ffffff;
+  color:#ffffff;
+  width:60%;
+  padding:16px;
+  margin:0 auto;
+}
+.linea{
+  margin-top:unset;
+  display:inline;
+  width:unset;
+  vertical-align:middle;
+}
+fieldset{
+  border:none;
+}

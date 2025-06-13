@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Habitos de lectura</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">¿Qué tan lector eres?</h1>
+    <p id="description">¡Ayúdanos a descubrir los secretos lectores de la gente como tú!</p>
+    <form id="survey-form">
+      <label id="name-label">Nombre:
+        <input id="name" required type="text" placeholder="Ingresa tu nombre">
+      </label>
+      <label id="email-label">
+        Email:
+        <input id="email" type="email" required placeholder="ingresa tu email">
+      </label>
+      <label id="number-label">Edad:
+        <input type="number" id="number" min="18" max="120" placeholder="20">
+      </label>
+      <label>
+        ¿Con qué frecuencia lees?
+        <select id="dropdown">
+          <option>Diario</option>
+          <option>Varias veces a la semana</</option>
+          <option>Pocas veces al mes</option>
+          <option>Casi nunca</option>
+        </select>
+      </label>
+      <fieldset>
+        <legend>¿Te gustaria pertenecer a un club de lectura?</legend>
+      <label>
+        <input class="linea" type="radio" name="club" value="si"> Sí</label>
+        <label><input class="linea" type="radio" name="club" value="no"> No
+      </label>
+      </fieldset>
+      <fieldset>
+        <legend>¿Qué generos te gustan?</legend>
+        <label>
+        <input class="linea" type="checkbox" value="ficcion"> Ciencia ficción
+</label>
+       <label> <input class="linea" type="checkbox" value="aventura"> Aventura</label>
+       <label> <input class="linea" type="checkbox" value="autoayuda"> Autoayuda</label>
+       <label> <input class="linea" type="checkbox" value="historia"> Historia</label>
+       <label> <input class="linea" type="checkbox" value="romance"> Romance</label>
+        <label><input class="linea" type="checkbox" value="otro"> Otro</label>
+      </fieldset>
+      <label>
+        ¿Tienes alguna sugerencia?
+        <textarea></textarea>
+      </label>
+      <input type="submit" value="Enviar" id="submit">
+    </form>
+  </body>
+</html>
